@@ -2,7 +2,7 @@
 
 The cubic phase gate is defined as
 
-$``P(t) = \exp( i t \hat{q}^2 / 2 \hbar``$
+$``P(t) = \exp\left( i t \hat{q}^2 / 2 \hbar \right)``$
 
 with Hamiltonian matrix $`` \begin{pmatrix} t & 0 \\ 0 & 0 \end{pmatrix}``$. 
 

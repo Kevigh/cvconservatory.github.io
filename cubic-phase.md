@@ -4,7 +4,7 @@ The cubic phase gate is defined as
 
 $``P(t) = exp( i t \hat{q}^2 / 2 \hbar``$
 
-with Hamiltonian matrix $`` \begin{pmatrix} t & 0 \\ 0 & 0 ``$. 
+with Hamiltonian matrix $`` \begin{pmatrix} t & 0 \\ 0 & 0 \end{pmatrix}``$. 
 
 In the Heisenberg picture one can write
 

@@ -49,9 +49,7 @@ $$e^{i\varphi} \langle \bar{\alpha}^* \vert \exp{\left(\frac{\tanh{r}}{2}a^{\dag
 
 where we have introduced the rotated labels $\langle \bar{\alpha}^* \vert \equiv \langle \alpha^* e^{-i\theta} \vert = \langle \alpha^* \vert e^{i\theta a^{\dagger}a}$ and $\vert \bar{\beta} \rangle \equiv \vert \beta e^{i(\pi/2 - \theta)} \rangle = e^{i(\pi/2 - \theta) a^{\dagger}a} \vert \beta \rangle$ to simplify the expression. The resulting expression takes the form
 
-$$
-\sqrt{2}e^{i\varphi} \frac{\exp{[-\frac{1}{2}(\lvert \alpha \rvert^{2} + \lvert \beta \rvert^{2})]}}{\sqrt[4]{4+t^{2}}} \exp{\left(-\frac{1}{2} \begin{bmatrix} \alpha & \beta \end{bmatrix} \begin{bmatrix} f & g \\ g & f^* \end{bmatrix} \begin{bmatrix} \alpha \\ \beta \end{bmatrix} \right)}
-$$
+$$\sqrt{2}e^{i\varphi} \frac{\exp{[-\frac{1}{2}(\lvert \alpha \rvert^{2} + \lvert \beta \rvert^{2})]}}{\sqrt[4]{4+t^{2}}} \exp{\left(-\frac{1}{2} \begin{bmatrix} \alpha & \beta \end{bmatrix} \begin{bmatrix} f & g \\\\ g & f^* \end{bmatrix} \begin{bmatrix} \alpha \\\\ \beta \end{bmatrix} \right)}$$
 
 where we used the overlap of two coherent states $\langle \bar{\alpha}^* \vert \bar{\beta} \rangle = \exp{(-\frac{1}{2}(\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} - 2\bar{\alpha}\bar{\beta}))}$, and the functions $f$ and $g$ are given by
 

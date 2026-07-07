@@ -27,7 +27,7 @@ where $``\exp(i \varphi) = \frac{\sqrt[4]{1+\tfrac{t^2}{4}} }{\sqrt{1 - i \tfrac
 
 We now compute the coherent-state matrix elements of $P(t)$
 
-$$\langle \alpha^{*} \vert P(t) \vert \beta \rangle = \langle \alpha^{*} \vert e^{i \varphi}\exp\left( i \theta \hat{a}^\dagger \hat{a} \right) \exp(\tfrac{r}{2}(\hat{a}^{\dagger 2} - \hat{a}^2)) \exp\left( i (\tfrac{\pi}{2} - \theta) \hat{a}^\dagger \hat{a}  \right) \vert \beta \rangle,$$
+$$\langle \alpha^* \vert P(t) \vert \beta \rangle = \langle \alpha^* \vert e^{i \varphi}\exp\left( i \theta \hat{a}^\dagger \hat{a} \right) \exp(\tfrac{r}{2}(\hat{a}^{\dagger 2} - \hat{a}^2)) \exp\left( i (\tfrac{\pi}{2} - \theta) \hat{a}^\dagger \hat{a}  \right) \vert \beta \rangle,$$
 
 where we use the following identity to express the squeezing operator as 
 

@@ -31,30 +31,30 @@ $$\langle \alpha^* \vert P(t) \vert \beta \rangle = \langle \alpha^* \vert e^{i 
 
 where we use the following identity to express the squeezing operator as 
 
-$$\exp{\left(\frac{r}{2}(a^{\dagger 2} - a^{2})\right)} = \exp{\left(\frac{\tanh{r}}{2}a^{\dagger 2}\right)}\exp{\left(-[a^{\dagger}a + 1/2]\ln{\cosh{r}}\right)}\exp{\left(-\frac{\tanh{r}}{2}a^{2}\right)},$$
+$$\exp{\left(\frac{r}{2}(\hat{a}^{\dagger 2} - \hat{a}^{2})\right)} = \exp{\left(\frac{\tanh{r}}{2}\hat{a}^{\dagger 2}\right)}\exp{\left(-[\hat{a}^{\dagger}\hat{a} + 1/2]\ln{\cosh{r}}\right)}\exp{\left(-\frac{\tanh{r}}{2}\hat{a}^{2}\right)},$$
 
 and a second identity to normal-order this expression
 
-$$\exp{(\theta a^{\dagger}a)} = :\exp{([\exp{(\theta)} - 1]a^{\dagger}a)}:,$$
+$$\exp{(\theta \hat{a}^{\dagger}\hat{a})} = :\exp{([\exp{(\theta)} - 1]\hat{a}^{\dagger}\hat{a})}:,$$
 
-with $:(a^{\dagger}a)^{p}: = a^{\dagger p}a^{p}$.
+with $:(\hat{a}^{\dagger}\hat{a})^{p}: = \hat{a}^{\dagger p}\hat{a}^{p}$.
 
 Using these two identities, the decomposition of $P(t)$ takes the form
 
-$$P(t) = e^{i\varphi} \exp(i\theta a^{\dagger}a)\exp{\left(\frac{\tanh{r}}{2}a^{\dagger 2}\right)}\times:\frac{\exp{([1/\cosh{r}-1]a^{\dagger}a)}}{\sqrt{\cosh{r}}}:\times\exp{\left(-\frac{\tanh{r}}{2}a^{2}\right)}\exp{(i(\pi/2-\theta)a^{\dagger}a)}.$$
+$$P(t) = e^{i\varphi} \exp(i\theta \hat{a}^{\dagger}\hat{a})\exp{\left(\frac{\tanh{r}}{2}\hat{a}^{\dagger 2}\right)}\times:\frac{\exp{([1/\cosh{r}-1]\hat{a}^{\dagger}\hat{a})}}{\sqrt{\cosh{r}}}:\times\exp{\left(-\frac{\tanh{r}}{2}\hat{a}^{2}\right)}\exp{(i(\pi/2-\theta)\hat{a}^{\dagger}\hat{a})}.$$
 
 Evaluating the matrix element $\langle \alpha^* \vert \dots \vert \beta \rangle = e^{i\varphi} \langle \bar{\alpha}^* \vert \dots \vert \bar{\beta} \rangle$ gives
 
-$$e^{i\varphi} \langle \bar{\alpha}^* \vert \exp{\left(\frac{\tanh{r}}{2}a^{\dagger 2}\right)}\times:\frac{\exp{([1/\cosh{r}-1]a^{\dagger}a)}}{\sqrt{\cosh{r}}}:\times\exp{\left(-\frac{\tanh{r}}{2}a^{2}\right)} \vert \beta \rangle$$
+$$e^{i\varphi} \langle \bar{\alpha}^* \vert \exp{\left(\frac{\tanh{r}}{2}\hat{a}^{\dagger 2}\right)}\times:\frac{\exp{([1/\cosh{r}-1]\hat{a}^{\dagger}\hat{a})}}{\sqrt{\cosh{r}}}:\times\exp{\left(-\frac{\tanh{r}}{2}\hat{a}^{2}\right)} \vert \bar{\beta} \rangle$$
 
-where we have introduced the rotated labels $\langle \bar{\alpha}^* \vert \equiv \langle \alpha^* e^{-i\theta} \vert = \langle \alpha^* \vert e^{i\theta a^{\dagger}a}$ and $\vert \bar{\beta} \rangle \equiv \vert \beta e^{i(\pi/2 - \theta)} \rangle = e^{i(\pi/2 - \theta) a^{\dagger}a} \vert \beta \rangle$ to simplify the expression. The resulting expression takes the form
+where we have introduced the rotated labels $\langle \bar{\alpha}^* \vert \equiv \langle \alpha^* e^{-i\theta} \vert = \langle \alpha^* \vert e^{i\theta \hat{a}^{\dagger}\hat{a}}$ and $\vert \bar{\beta} \rangle \equiv \vert \beta e^{i(\pi/2 - \theta)} \rangle = e^{i(\pi/2 - \theta) \hat{a}^{\dagger}\hat{a}} \vert \beta \rangle$ to simplify the expression. The resulting expression takes the form
 
 $$\sqrt{2}e^{i\varphi} \frac{\exp{[-\frac{1}{2}(\lvert \alpha \rvert^{2} + \lvert \beta \rvert^{2})]}}{\sqrt[4]{4+t^{2}}} \exp{\left(-\frac{1}{2} \begin{bmatrix} \alpha & \beta \end{bmatrix} \begin{bmatrix} f & g \\\\ g & f^* \end{bmatrix} \begin{bmatrix} \alpha \\\\ \beta \end{bmatrix} \right)}$$
 
 where we used the overlap of two coherent states $\langle \bar{\alpha}^* \vert \bar{\beta} \rangle = \exp{(-\frac{1}{2}(\lvert\alpha\rvert^{2} + \lvert\beta\rvert^{2} - 2\bar{\alpha}\bar{\beta}))}$, and the functions $f$ and $g$ are given by
 
 $$\begin{aligned} 
-f &= -\tanh{r}\,e^{2i\theta}, \\
+f &= -\tanh{r}e^{2i\theta}, \\
 g &= -\frac{i}{\cosh{r}},
 \end{aligned}$$
 

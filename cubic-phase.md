@@ -64,3 +64,17 @@ $$\begin{aligned}
 f &= \frac{t(t - 2i)}{4 + t^{2}}, \\
 g &= - \frac{2i}{\sqrt{4 + t^{2}}}.
 \end{aligned}$$
+
+An important result is
+
+$$
+[\hat{a},P(t)] = P\left\{\frac{it}{2}(\hat{a}^{\dagger} + \hat{a})\right\}
+$$
+
+We calculate the Fock-states matrix elements of the commutator above
+
+$$
+\langle m|[\hat{a},P(t)]|n \rangle = \sqrt{m+1}P_{m+1,n} - \sqrt{n}P_{m,n-1} = \frac{it}{2}\left\{\sqrt{n+1}P_{m,n+1} + \sqrt{n}V_{m,n-1} \right\},
+$$
+
+with the initial condition $P_{0,0} = \frac{e^{i\varphi}}{\cosh{r}} = \frac{1}{2 - it}$.

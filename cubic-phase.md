@@ -68,7 +68,7 @@ g &= - \frac{2i}{\sqrt{4 + t^{2}}}.
 An important result is
 
 $$
-[\hat{a},P(t)] = P\left\lbrace \frac{it}{2}(\hat{a}^{\dagger} + \hat{a}) \right\rbrace
+[\hat{a},P(t)] = P\left\lbrace \frac{it}{2}(\hat{a}^{\dagger} + \hat{a}) \right\rbrace.
 $$
 
 We calculate the Fock-state matrix elements of the commutator above

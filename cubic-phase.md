@@ -68,13 +68,23 @@ g &= - \frac{2i}{\sqrt{4 + t^{2}}}.
 An important result is
 
 $$
-[\hat{a},P(t)] = P\left\{\frac{it}{2}(\hat{a}^{\dagger} + \hat{a})\right\}
+[\hat{a},P(t)] = P\left\lbrace \frac{it}{2}(\hat{a}^{\dagger} + \hat{a}) \right\rbrace
 $$
 
-We calculate the Fock-states matrix elements of the commutator above
+We calculate the Fock-state matrix elements of the commutator above
 
 $$
-\langle m|[\hat{a},P(t)]|n \rangle = \sqrt{m+1}P_{m+1,n} - \sqrt{n}P_{m,n-1} = \frac{it}{2}\left\{\sqrt{n+1}P_{m,n+1} + \sqrt{n}V_{m,n-1} \right\},
+\langle m|[\hat{a},P(t)]|n \rangle = \sqrt{m+1}\,P_{m+1,n} - \sqrt{n}\,P_{m,n-1} = \frac{it}{2}\left\lbrace \sqrt{n+1}\,P_{m,n+1} + \sqrt{n}\,P_{m,n-1} \right\rbrace,
 $$
 
-with the initial condition $P_{0,0} = \frac{e^{i\varphi}}{\cosh{r}} = \frac{1}{2 - it}$.
+with the initial condition $P_{0,0} = \frac{e^{i\varphi}}{\sqrt{\cosh{r}}} = \frac{1}{\sqrt{1 - it/2}}$.
+
+Solving for the term with highest index
+
+$$
+P_{m+1,n} = \frac{1}{\sqrt{m+1}} \left\lbrace \sqrt{n}\left(1 + \frac{it}{2}\right)P_{m,n-1} + \frac{it}{2}\sqrt{n+1}P_{m,n+1} \right\rbrace,
+$$
+
+$$
+P_{m+1,0} = \frac{it}{2\sqrt{m+1}} P_{m,1}.
+$$
